@@ -96,6 +96,23 @@ body {
 
 .btn-hero:hover { background: #b82020; transform: translateY(-2px); }
 
+.hero-cta-row { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+
+.btn-hero-secondary {
+  display: inline-block;
+  background: transparent;
+  color: var(--white);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1em;
+  padding: 14px 28px;
+  border-radius: 6px;
+  border: 2px solid rgba(255,255,255,0.6);
+  text-decoration: none;
+  transition: border-color 0.2s, background 0.2s, transform 0.15s;
+}
+.btn-hero-secondary:hover { border-color: #fff; background: rgba(255,255,255,0.1); transform: translateY(-2px); }
+
 /* ── Stats Strip ───────────────────────────────────────────────────────── */
 .stats-strip {
   display: flex;
